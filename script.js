@@ -78,6 +78,12 @@ document.querySelector(".btn").addEventListener("click", (e)=> {
     e.preventDefault()
     console.log("clicked....");
     console.log(username.value, password.value);
+
+    if (!website.value || !username.value || !password.value) {
+        alert("Please fill in all the fields before submitting.");
+        return;
+    }
+    
     let passwords = localStorage.getItem("passwords");
     console.log(passwords);
     if(!passwords) {
