@@ -30,6 +30,7 @@ nav {
 .logo:hover {
     color: rgb(4, 73, 141);
 }
+
 ul {
     display: flex;
     margin: 0 23px;
@@ -38,36 +39,47 @@ ul {
 
 ul li {
     list-style: none;
-    margin: 0 13px; 
+    margin: 0 13px;
     color: white;
     cursor: pointer;
 }
 
 ul li:hover {
-    color: rgb(4, 73, 141) ;
+    color: rgb(4, 73, 141);
     transition-property: all;
     transition-duration: 0.2 s;
-    transition-timing-function: ease-in;  
+    transition-timing-function: ease-in;
 }
 
 
-table, th, td, tr{
+table,
+th,
+td,
+tr {
     border: 2px solid black;
     border-collapse: collapse;
     padding: 5px 13px;
 }
 
-tr th{
-    color:  rgb(7, 31, 56);
+tr th {
+    color: rgb(7, 31, 56);
 }
 
 label {
     font-weight: 900;
-    color: rgb(7, 31, 56);;
+    color: rgb(7, 31, 56);
 }
 
 input {
+    width: 256px;
+    padding: 12px 14px;
+    border: 1px solid black;
+    border-radius: 4px;
     font-weight: 700;
+
+    &:focus {
+        outline: 3px solid rgba(46, 139, 87, 0.5);
+    }
 }
 
 .container {
@@ -75,7 +87,9 @@ input {
     margin: 23px auto;
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
     margin: 23px 0;
     color: rgb(7, 31, 56);
 }
@@ -95,10 +109,13 @@ h1, h2, h3{
     border-radius: 8px;
     box-shadow: 0 5px grey;
 }
-    
-.btn:hover {background-color: rgb(4, 73, 141);
+
+.btn:hover {
+    background-color: rgb(4, 73, 141);
 }
-.btnsm:hover {background-color:rgb(4, 73, 141);
+
+.btnsm:hover {
+    background-color: rgb(4, 73, 141);
 }
 
 .btn:active {
