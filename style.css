@@ -78,6 +78,7 @@ input {
     font-weight: 700;
 
     &:focus {
+        border-color: #2e8b57;
         outline: 3px solid rgba(46, 139, 87, 0.5);
     }
 }
