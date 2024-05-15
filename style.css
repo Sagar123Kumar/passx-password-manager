@@ -28,7 +28,8 @@ nav {
 }
 
 .logo:hover {
-    color: rgb(4, 73, 141);
+    color: red;
+    
 }
 
 ul {
